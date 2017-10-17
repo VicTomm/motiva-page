@@ -5,7 +5,7 @@ const Header = () => (
     <header>
         <h2>
             <Link className="header__title" to="/">
-                <img src="/images/motiva/logoHeader.png" alt="Motiva" />
+                <img src="/images/logoHeader.png" alt="Motiva" />
             </Link>
         </h2>
         <nav>
