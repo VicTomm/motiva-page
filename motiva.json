@@ -1,0 +1,162 @@
+{
+  "pages": {
+    "secretarias": {
+      "Jurídica": {
+        "imagePath": "/images/Motiva/icons/juridica.png",
+        "objetivoG": "Asesorar a los integrantes de MOTIVA, promoviendo la cultura de la legalidad en asuntos de carácter jurídico y en materia electoral.",
+        "objetivosP": {
+          "objetivoUno": "Vigila el cumplimiento de las normas de MOTIVA",
+          "objetivoDos": "Hace que todas y todos conozcan las normas del Movimiento",
+          "objetivoTres": "Vigila la preparación y desarrollo de los trabajos del Pleno",
+          "objetivoCuatro": "Asesora a la Mesa Directiva y los Parlamentarios",
+          "objetivoCinco": "Elabora los nombramientos de la Coordinación Nacional",
+          "objetivoSeis": "",
+          "objetivoSiete": ""
+        }
+      },
+      "Operativa": {
+        "imagePath": "/images/Motiva/icons/operativa.png",
+        "objetivoG": "Diseñar estrategias territoriales que nos permitan aterrizar los diferentes programas y proyectos.",
+        "objetivosP": {
+          "objetivoUno": "Realiza estudios territoriales para elegir el mejor lugar para ejecutar un programa o proyecto",
+          "objetivoDos": "Recluta y capacita brigadistas",
+          "objetivoTres": "Identifica liderazgos en las colonias para formar redes ciudadanas",
+          "objetivoCuatro": "Da seguimiento a las demandas ciudadanas",
+          "objetivoCinco": "Coordina y asesora a las Direcciones Operativas Estatales y Municipales",
+          "objetivoSeis": "",
+          "objetivoSiete": ""
+        }
+      },
+      "Política Interna": {
+        "imagePath": "/images/Motiva/icons/politicainterna.png",
+        "objetivoG": "Mantener constante comunicación con la Coordinación Nacional, la Asamblea Nacional y cualquier órgano adscrito a la Coordinación.",
+        "objetivosP": {
+          "objetivoUno": "Genera sinergia al interior de las Coordinaciones del Movimiento",
+          "objetivoDos": "Da seguimiento a los acuerdos que dan funcionamiento a MOTIVA",
+          "objetivoTres": "Convoca a reuniones y comités de trabajo",
+          "objetivoCuatro": "Mantiene el registro de integrantes de MOTIVA actualizado",
+          "objetivoCinco": "Vigila el cumplimiento de los objetivos del Movimiento",
+          "objetivoSeis": "",
+          "objetivoSiete": ""
+        }
+      },
+      "Participación y Empoderamiento": {
+        "imagePath": "/images/Motiva/icons/participacionempoderaimiento.png",
+        "objetivoG": "Difundir los valores de nuestro Movimiento entre los miembros, crear una ideantidad y generar alianzas con asociaciones civiles.",
+        "objetivosP": {
+          "objetivoUno": "Busca la sana convivencia al interior de MOTIVA",
+          "objetivoDos": "Establecer alianzas de trabajo con Asociaciones Civiles",
+          "objetivoTres": "Busca fortalecer la imagen institucional de MOTIVA al interior y al exterior",
+          "objetivoCuatro": "Da seguimiento a los vínculos y relaciones del Movimiento",
+          "objetivoCinco": "Promueve y busca espacios dónde pueda existir una partición de MOTIVA",
+          "objetivoSeis": "",
+          "objetivoSiete": ""
+        }
+      },
+      "Vinculación": {
+        "imagePath": "/images/Motiva/icons/vinculacion.png",
+        "objetivoG": "Generar acercamiento de la organización con los sectores político, empresarial, social, académico, y estudiantil.",
+        "objetivosP": {
+          "objetivoUno": "Genera un mapeo dpara determinar posibles alianzas para el Movimiento",
+          "objetivoDos": "Da a conocer que es Motiva: sus valores, principios y objetivos",
+          "objetivoTres": "Consolida acuerdos de colaboración con alianzas de forma estratégicas",
+          "objetivoCuatro": "Da seguimiento a las relaciones establecidas",
+          "objetivoCinco": "",
+          "objetivoSeis": "",
+          "objetivoSiete": ""
+        }
+      },
+      "Comunicación": {
+        "imagePath": "/images/Motiva/icons/comunicacion.png",
+        "objetivoG": "Procurar y mantener las buenas relaciones de MOTIVA, tanto al interior como al exterior a través de la comunicación institucional.",
+        "objetivosP": {
+          "objetivoUno": "Establece que se quiere decir, cómo decirlo y de qué manera se transmite mejor el mensaje",
+          "objetivoDos": "Fomenta la participación y el compromiso de los integrantes de MOTIVA",
+          "objetivoTres": "Proyecta, promueve y refuerza la imagen del Movimiento",
+          "objetivoCuatro": "Se encarga de la comunicación verbal y no verbal",
+          "objetivoCinco": "Maneja las redes sociales",
+          "objetivoSeis": "Genera líneas discursivas con base en la ideología de MOTIVA",
+          "objetivoSiete": "Crea el contenido visual"
+        }
+      },
+      "Programas y Proyectos": {
+        "imagePath": "/images/Motiva/icons/programasproyectos.png",
+        "objetivoG": "Se encarga del diseño, evaluación, ejecución y seguimiento de todas las actividades de MOTIVA.",
+        "objetivosP": {
+          "objetivoUno": "Aprueba -o desaprueba- solicitudes de programas o proyectos",
+          "objetivoDos": "Controla y da seguimiento al Registro de Programas y Proyectos...",
+          "objetivoTres": "Asesora a los interesados en generar un programa o proyecto",
+          "objetivoCuatro": "Diseña y ejecuta actividades de la Coordinación Nacional",
+          "objetivoCinco": "",
+          "objetivoSeis": "",
+          "objetivoSiete": ""
+        }
+      },
+      "Asuntos Locales": {
+        "imagePath": "/images/Motiva/icons/asuntoslocales.png",
+        "objetivoG": "Buscar la expansión a nueavs regiones del país realizando múltiples acciones para apoyar a las Coordinaciones Estatales.",
+        "objetivosP": {
+          "objetivoUno": "Busca la apertura de nuevas representaciones locales",
+          "objetivoDos": "Recolecta los documentos que envían los estatales a la Coordinación Nacional",
+          "objetivoTres": "Evalúa el desempeño de las Coordinaciones Estatales",
+          "objetivoCuatro": "Da seguimiento a, nombramiento de nuevos coordinadores estatales y municipales",
+          "objetivoCinco": "",
+          "objetivoSeis": "",
+          "objetivoSiete": ""
+        }
+      },
+      "Pluralidad e Inclusión": {
+        "imagePath": "/images/Motiva/icons/pluralidadinclusion.png",
+        "objetivoG": "Velar por el correcto cumplimiento de los principios éticos y programáticos dictados por el feminismo y el garantismo.",
+        "objetivosP": {
+          "objetivoUno": "Empoderar a las mujeres en los ámbitos político, económico y social",
+          "objetivoDos": "Garantizar la inclusión y el respeto por las personas de la comunidad LGBT+",
+          "objetivoTres": "Concientizar acerca del daño causado por actos de exclusión y discriminación",
+          "objetivoCuatro": "Tomar acciones concretas a favor de los grupos en situación de vulnerabilidad como las mujeres",
+          "objetivoCinco": "Garantizar que cada acción emprendida por el movimiento tenga como eje rector el feminismo, el respeto y la inclusión",
+          "objetivoSeis": "",
+          "objetivoSiete": ""
+        }
+      },
+      "Estrategia Política": {
+        "imagePath": "/images/Motiva/icons/estrategia.png",
+        "objetivoG": "Emitir los lineamientos para las acciones emprendidas y determinar el rumbo a seguir de MOTIVA.",
+        "objetivosP": {
+          "objetivoUno": "Es la encargada de solucionar conflictos en momentos de crisis",
+          "objetivoDos": "Definir el mensaje que será emitido, tanto al interior como al exterior del Movimiento",
+          "objetivoTres": "Analizar los temas coyunturales",
+          "objetivoCuatro": "Asesorar a cada coordinador o coordinadora y Secretaría en momentos de crisis",
+          "objetivoCinco": "Definir los momentos en que el Movimiento deba pronunciarse respecto de algún acontecimiento",
+          "objetivoSeis": "",
+          "objetivoSiete": ""
+        }
+      },
+      "Apertura y Mecanismos Abiertos": {
+        "imagePath": "/images/Motiva/icons/mecanismos.png",
+        "objetivoG": "Garantizar la transparencia y rendición de cuentas en las decisiones y acciones de MOTIVA.",
+        "objetivosP": {
+          "objetivoUno": "Fomentar y vigilar la aplicación de los principios de horizontalidad, inclusión e igualdad dentro de la organización.",
+          "objetivoDos": "Generar estrategias de cvinculación dentro y fuera de MOTIVA con la finalidad de fortalecer una cultura de la transparencia",
+          "objetivoTres": "Generar información útil y oportuna que fomente la cultura de la transparencia y rendición de cuentas en la ciudadanía",
+          "objetivoCuatro": "Verificar que las decisiones y acciones de la asociación cumplan con los principios de horizontalidad, inclusión e igualdad",
+          "objetivoCinco": "",
+          "objetivoSeis": "",
+          "objetivoSiete": ""
+        }
+      },
+      "Agenda Política": {
+        "imagePath": "/images/Motiva/icons/agenda.png",
+        "objetivoG": "Definir el México que queremos A través de la deliberación, proveer al movimiento MOTIVA de las bases ideológicas, morales, políticas, económicas y científicas.",
+        "objetivosP": {
+          "objetivoUno": "Coadyuvar con la Coordinación Nacional en materia de Principios y Programa",
+          "objetivoDos": "Coordinar la elaboración del Programa político-ideológico de MOTIVA",
+          "objetivoTres": "Elaborar, reformar y garantizar la Declaración de Principios del movimiento",
+          "objetivoCuatro": "Definir los momentos en que el Movimiento deba pronunciarse respecto de algún acontecimiento",
+          "objetivoCinco": "",
+          "objetivoSeis": "",
+          "objetivoSiete": ""
+        }
+      }
+    }
+  }
+}

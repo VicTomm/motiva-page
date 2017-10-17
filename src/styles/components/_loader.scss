@@ -1,0 +1,50 @@
+.loader{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 32px;
+	height: 32px;
+	&::before, &::after{
+		content: "";
+		border-radius: 50%;
+		position: absolute;
+		width: 32px;
+		height: 32px;
+		background: #ff4262;
+	}
+	&::before{
+		animation: leftA 1.5s linear infinite;
+	}
+	&::after{
+		animation: rightA 1.5s linear infinite;
+	}
+}
+
+@keyframes leftA {
+	0%, 100% {
+	  left: 100%;
+	  transform: scale(0.7);
+	}
+	25%, 75% {
+	  left: 0;
+	  transform: scale(1);
+	}
+	50% {
+	  left: 0;
+	  transform: scale(1.5);
+	}
+  }
+  @keyframes rightA {
+	0%, 100% {
+	  right: 100%;
+	  transform: scale(0.7);
+	}
+	25%, 75% {
+	  right: 0;
+	  transform: scale(1);
+	}
+	50% {
+	  right: 0;
+	  transform: scale(1.5);
+	}
+  }

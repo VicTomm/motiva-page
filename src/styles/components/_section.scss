@@ -1,0 +1,142 @@
+/*----------------
+ 	Hero Section
+----------------*/
+
+.hero{
+	position: relative;
+	justify-content: center;
+	min-height: 88vh;
+	text-align: center;
+}
+
+.hero .background-image{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-color: #2196F3;
+	z-index: -1;
+}
+
+.hero .background-image:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #414a4f;
+	opacity: 0.75;
+}
+
+.hero h1{
+	font: bold 60px 'Open Sans', sans-serif;
+	margin-bottom: 15px;
+}
+
+.hero h3{
+	font: normal 28px 'Open Sans', sans-serif;
+	margin-bottom: 40px;
+}
+
+.hero a.btn{
+	padding: 20px 46px;
+}
+
+@media (max-width: 800px){
+
+	.hero{
+		min-height: 600px;
+	}
+
+	.hero h1{
+		font-size: 48px;
+	}
+
+	.hero h3{
+		font-size: 24px;
+	}
+
+	.hero a.btn{
+		padding: 15px 40px;
+	}
+
+}
+
+.social-container{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: center;
+    @media(max-width: 850px){
+        flex-direction: column;
+    }
+    @media(max-height: 500px){
+        flex-direction: row;
+    }
+}
+
+.social-container .social-container-item{
+    min-width: 160px;
+    @media(max-width: 600px){
+        min-width: 70px;
+    }
+    @media(max-width: 850px){
+        margin-bottom: 20px;
+    }
+    a{
+        display: block;
+        padding: 20px 0;
+        font-size: 24px;
+        text-align: center;
+        position: relative;
+        &:hover{
+            color: #fff;
+        }
+        &:hover i{
+            -webkit-transform: scale(5) rotate(360deg);
+            transform: scale(5) rotate(360deg);
+            opacity: 0;
+            @media(max-width: 600px){
+                -webkit-transform: scale(4.4) rotate(360deg);
+                transform: scale(4.4) rotate(360deg);
+            }
+        }
+        &:hover div.fa{
+            -webkit-transition: all 1.5s;
+            transition: all 1.5s;
+            opacity: 1;
+        }
+    }
+}
+
+.icon{
+    color: #fff;
+}
+
+.icon-facebook{
+    background: #4060A5;
+}
+
+.icon-twitter{
+    background:  #1DA1F2;
+}
+
+.icon-phone{
+    background: #28998b;
+}
+
+.icon-mail{
+    background: $pink-color;
+}
+
+div.fa{
+    position: absolute;
+    top: center;
+    left: center;
+    opacity: 0;
+}
