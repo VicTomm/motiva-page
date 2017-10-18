@@ -33,18 +33,17 @@ section{
 	  }
 }
 
-@media(min-width: 1200px){
-	section{
+@media only screen and (min-width : 1025px) {
+    section{
 		padding: 216px 100px;
 	}
 }
 
-@media (min-width: 1000px){
 
-	section{
+@media only screen and (max-width : 1024px) {
+    section{
 		padding: 110px 100px;
 	}
-
 }
 
 @media (max-width: 600px){
