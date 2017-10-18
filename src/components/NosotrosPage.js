@@ -6,9 +6,9 @@ import SecretariaItem from './SecretariaItem'
 class NosotrosPage extends React.Component {
     render() {
         return (
-            <section class="section">
-                <div class="container has-text-centered">
-                    <h1 class="title">Secretarías</h1>
+            <section className="section">
+                <div className="container has-text-centered">
+                    <h1 className="title">Secretarías</h1>
                     <hr />
                     <div className="columns is-multiline is-desktop">
                         {

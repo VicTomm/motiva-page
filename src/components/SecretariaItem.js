@@ -5,7 +5,7 @@ const SecretariaItem = ({ id, imagePath, objetivosP }) => (
         <div className="column is-one-quarter">
             <Link className="is-inverted is-outlined" to={`/secretaria/${id}`}>
                 <div className="card card-secretaria">
-                    <div class="card-image">
+                    <div className="card-image">
                         <figure className="image is-128x128 motiva-secretaria">
                             <img src={imagePath} alt="Motiva" width="100" height="100" />
                         </figure>

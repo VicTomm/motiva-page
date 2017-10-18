@@ -33,10 +33,16 @@ section{
 	  }
 }
 
-@media (max-width: 1000px){
+@media(min-width: 1200px){
+	section{
+		padding: 216px 100px;
+	}
+}
+
+@media (min-width: 1000px){
 
 	section{
-		padding: 100px 50px;
+		padding: 110px 100px;
 	}
 
 }
