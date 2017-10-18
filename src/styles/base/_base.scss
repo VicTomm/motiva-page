@@ -57,3 +57,12 @@ section{
 .strongMotiva{
 	color: $pink-color;
 }
+
+.motiva-appear {
+	opacity: 0.01;
+  }
+  
+  .motiva-appear.motiva-appear-active {
+	opacity: 1;
+	transition: opacity .5s ease-in;
+  }

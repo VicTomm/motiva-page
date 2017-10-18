@@ -14,18 +14,18 @@ export const history = createHistory();
 
 const AppRouter = () => (
   <Router history={history}>
-    <div>
-      <Header />
-      <Switch>
-        <Route path="/" component={HomePage} exact={true} />
-        <Route path="/items" component={ItemList} />
-        <Route path="/nosotrxs" component={NosotrosPage} />
-        <Route path="/secretaria/:id" component={SecretariaPage} />
-        <Route path="/contacto" component={ContactPage} />
-        <Route component={NotFoundPage} />
-      </Switch>
-      <Footer />
-    </div>
+      <div>
+        <Header />
+        <Switch>
+          <Route path="/" component={HomePage} exact={true} />
+          <Route path="/items" component={ItemList} />
+          <Route path="/nosotrxs" component={NosotrosPage} />
+          <Route path="/secretaria/:id" component={SecretariaPage} />
+          <Route path="/contacto" component={ContactPage} />
+          <Route component={NotFoundPage} />
+        </Switch>
+        <Footer />
+      </div>
   </Router>
 );
 
