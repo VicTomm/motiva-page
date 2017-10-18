@@ -1,0 +1,18 @@
+.motiva-secretaria{
+	margin: 0 auto;
+}
+.card-secretaria{
+    height: 100%;
+}
+
+.column {
+    transition: opacity 0.4s ease-out;
+   
+    .columns:hover & {
+      opacity: 0.4;
+    }  
+    
+    &:hover {
+      opacity: 1 !important;
+    }
+  }

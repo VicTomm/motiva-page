@@ -17,45 +17,20 @@ body{
 	background-color: #fff;
 }
 
-ul, nav{
-	list-style: none;
-}
-
-a{
-	text-decoration: none;
-	color: inherit;
-	cursor: pointer;
-
-	opacity: 0.9;
-}
-
-a:hover{
-	opacity: 1;
-}
-
-a.btn{
-	color: #fff;
-	border-radius: 4px;
-	text-transform: uppercase;
-	background-color: #2196F3;
-	font-weight: 800;
-	text-align: center;
-}
-
 hr{
-	width: 150px;
+	width: 100px;
 	height: 2px;
-	background-color: $pink-color;
+	background-color: $green-color;
 	border: 0;
-	margin-bottom: 80px;
+	margin: 0 auto;
+	margin-bottom: 1.5rem;
 }
 
 section{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-
 	padding: 125px 100px;
+	p{
+		margin-bottom: 35px;
+	  }
 }
 
 @media (max-width: 1000px){
@@ -72,29 +47,6 @@ section{
 		padding: 80px 30px;
 	}
 
-}
-
-section h3.title{
-	color: #414a4f;
-	text-transform: capitalize; 
-	font: bold 32px 'Open Sans', sans-serif;
-	margin-bottom: 35px;
-	text-align: center;
-}
-
-section p{
-	max-width: 800px;
-	text-align: center;
-	margin-bottom: 35px;
-	padding: 0 20px;
-	line-height: 2;
-}
-
-ul.grid{
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
 }
 
 .strongMotiva{

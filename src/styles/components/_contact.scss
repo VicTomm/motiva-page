@@ -1,0 +1,59 @@
+.icon{
+    .facebook{
+        color: $facebook-color;
+    }
+    .twitter{
+        color: $twitter-color;
+    }
+    .youtube{
+        color: $youtube-color;
+    }
+    .phone{
+        color: $green-color;
+    }
+    .mail{
+        color: $pink-color;
+    }
+}
+
+.btn-facebook, .btn-twitter, .btn-phone, .btn-mail{
+    -webkit-transition: all ease 0.8s;
+	-moz-transition: all ease 0.8s;
+	transition: all ease 0.8s;
+}
+
+.btn-facebook.is-hovered, .btn-facebook:hover{
+    border-color: $facebook-color;
+    color: $off-white;
+    box-shadow: inset 0 100px 0 0 $facebook-color;
+    .facebook{
+        color: $off-white;
+    }
+}
+
+.btn-twitter.is-hovered, .btn-twitter:hover{
+    border-color: $twitter-color;
+    color: $off-white;
+    box-shadow: inset 0 100px 0 0 $twitter-color;
+    .twitter{
+        color: $off-white;
+    }
+}
+
+.btn-phone.is-hovered, .btn-phone:hover{
+    border-color: $green-color;
+    color: $off-white;
+    box-shadow: inset 0 100px 0 0 $green-color;
+    .phone{
+        color: $off-white;
+    }
+}
+
+.btn-mail.is-hovered, .btn-mail:hover{
+    border-color: $pink-color;
+    color: $off-white;
+    box-shadow: inset 0 100px 0 0 $pink-color;
+    .mail{
+        color: $off-white;
+    }
+}

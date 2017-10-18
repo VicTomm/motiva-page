@@ -5,19 +5,19 @@ import SecretariaItem from './SecretariaItem'
 
 class NosotrosPage extends React.Component {
     render() {
-        console.log(this.props.items);
         return (
-            <section className="nosotros">
-                <h1 className="nosotros__title">Secretarías</h1>
-                <hr />
-
-                <ul className="grid">
-                    {
-                        this.props.items.map((item) => (
-                            <SecretariaItem key={item.id} {...item} />
-                        ))
-                    }
-                </ul>
+            <section class="section">
+                <div class="container has-text-centered">
+                    <h1 class="title">Secretarías</h1>
+                    <hr />
+                    <div className="columns is-multiline is-desktop">
+                        {
+                            this.props.items.map((item) => (
+                                <SecretariaItem key={item.id} {...item} />
+                            ))
+                        }
+                    </div>
+                </div>
             </section>
         );
     }
