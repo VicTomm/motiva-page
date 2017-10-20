@@ -32,7 +32,7 @@ export class Header extends React.Component {
                         </div>
                         <div id="navbarMenuHeroC" className={"navbar-menu " + (this.state.isActive ? 'is-active' : '')}>
                             <div className="navbar-end">
-                                <NavLink onClick={this.handleBurgerMenu} to="/nosotrxs" className="navbar-item" activeClassName="is-active">Nosotrxs</NavLink>
+                                <NavLink onClick={this.handleBurgerMenu} to="/secretarias" className="navbar-item" activeClassName="is-active">Nosotrxs</NavLink>
                                 <NavLink onClick={this.handleBurgerMenu} to="/contacto" className="navbar-item" activeClassName="is-active">Contacto</NavLink>
                             </div>
                         </div>
