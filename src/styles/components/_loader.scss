@@ -10,7 +10,7 @@
 		position: absolute;
 		width: 32px;
 		height: 32px;
-		background: #ff4262;
+		background: $pink-color;
 	}
 	&::before{
 		animation: leftA 1.5s linear infinite;
