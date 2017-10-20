@@ -2,8 +2,6 @@ const path = require('path');
 const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
-console.log("ENV ",process.env.NODE_ENV, process.env.FIREBASE_DATABASE_URL);
-
 process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 
 if (process.env.NODE_ENV === 'test') {
