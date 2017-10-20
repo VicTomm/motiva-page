@@ -1,7 +1,5 @@
 import * as firebase from 'firebase';
 
-console.log("ENV ",process.env.NODE_ENV, process.env.FIREBASE_DATABASE_URL);
-
 const config = {
   apiKey: process.env.FIREBASE_API_KEY,
   authDomain: process.env.FIREBASE_AUTH_DOMAIN,
